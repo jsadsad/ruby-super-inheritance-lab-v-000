@@ -10,8 +10,9 @@ class ChattyStudent < Student
     loop do
       i += 1
       puts super
-      i 
-      
-    super 
+      if i === 10
+        break
+      end
+    end
   end
 end
