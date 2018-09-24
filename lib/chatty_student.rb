@@ -9,6 +9,8 @@ class ChattyStudent < Student
     i = 0
     loop do
       i += 1
+      puts super
+      i 
       
     super 
   end
